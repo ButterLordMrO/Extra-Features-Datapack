@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Basic Bullet Unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "bp_extrafeatures:guns/handguns/basic_handgun"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bp_extrafeatures:guns/handguns/basic_handgun/give"
+    }
+}

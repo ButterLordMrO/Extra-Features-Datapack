@@ -1,0 +1,3 @@
+execute as @a[scores={warped_fungus_detect=1.., gun_cooldown=..0},nbt={SelectedItem:{tag:{bp_basic_handgun:1b}},Inventory:[{tag:{bp_basicbullet:1b}}]}] at @s run function bp_extrafeatures:guns/handguns/basic_handgun/fire_projectile
+execute as @a[scores={warped_fungus_detect=1.., gun_cooldown=..0},nbt={SelectedItem:{tag:{bp_basic_handgun:1b}}}] run playsound ui.button.click player @s ~ ~ ~ 0.4
+execute as @a[scores={warped_fungus_detect=1..},nbt={SelectedItem:{tag:{bp_basic_handgun:1b}}}] run scoreboard players reset @s warped_fungus_detect 

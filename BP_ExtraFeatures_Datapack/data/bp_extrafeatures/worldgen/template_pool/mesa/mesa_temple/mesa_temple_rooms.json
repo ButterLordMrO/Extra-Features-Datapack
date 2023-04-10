@@ -1,0 +1,87 @@
+{
+    "name": "bp_extrafeatures:mesa/mesa_temple/mesa_temple_rooms",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 80,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "bp_extrafeatures:mesa/mesa_temple/mesa_temple_simple_four_way"
+            }
+        },
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "bp_extrafeatures:mesa/mesa_temple/mesa_temple_simple_corner"
+            }
+        },
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "bp_extrafeatures:mesa/mesa_temple/mesa_temple_simple_reverse_corner"
+            }
+        },
+        {
+            "weight": 30,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "bp_extrafeatures:mesa/mesa_temple/mesa_temple_spawner_reverse_corner"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "bp_extrafeatures:mesa/mesa_temple/mesa_temple_long_four_way"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "bp_extrafeatures:mesa/mesa_temple/mesa_temple_campfire_stairs"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "bp_extrafeatures:mesa/mesa_temple/mesa_temple_food_corner"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "bp_extrafeatures:mesa/mesa_temple/mesa_temple_chest_end"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "bp_extrafeatures:mesa/mesa_temple/mesa_temple_forge_end"
+            }
+        }
+    ]
+}

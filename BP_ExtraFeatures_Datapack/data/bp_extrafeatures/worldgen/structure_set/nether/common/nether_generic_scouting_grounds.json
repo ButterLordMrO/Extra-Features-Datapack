@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bp_extrafeatures:nether/common/nether_generic_scouting_grounds",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 827139901,
+    "spacing": 16,
+    "separation": 8
+  }
+}

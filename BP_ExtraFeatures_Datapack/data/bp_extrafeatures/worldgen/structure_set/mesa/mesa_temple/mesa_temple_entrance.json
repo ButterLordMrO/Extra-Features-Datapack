@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bp_extrafeatures:mesa/mesa_temple/mesa_temple_entrance",
+            "weight": 1
+    }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 1343280745,
+        "spacing": 40,
+        "separation": 30
+    }
+}

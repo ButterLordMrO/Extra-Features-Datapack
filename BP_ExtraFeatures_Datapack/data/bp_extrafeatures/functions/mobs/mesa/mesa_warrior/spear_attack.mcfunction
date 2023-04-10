@@ -1,0 +1,3 @@
+summon armor_stand ~ ~-1.9 ~ {CustomNameVisible: 0b, NoGravity: 0b, Marker: 1b, Invisible: 1b, Tags: ["custom_mob", "mesa_warrior_spears"], ArmorItems: [{}, {}, {}, {id: "minecraft:warped_fungus_on_a_stick", Count: 1b, tag: {CustomModelData: 6274001}}], CustomName: '{"text":"Ancient Mesa Spears"}'}
+execute as @e[tag=mesa_warrior_spears] unless score @s mob_attack_cd_1 matches 0.. run scoreboard players set @s mob_attack_cd_1 190
+playsound block.anvil.place hostile @a ~ ~-1.9 ~

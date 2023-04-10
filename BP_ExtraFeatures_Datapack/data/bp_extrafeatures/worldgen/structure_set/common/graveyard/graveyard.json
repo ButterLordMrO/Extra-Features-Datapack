@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bp_extrafeatures:common/graveyard/graveyard",
+            "weight": 1
+    }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 1014137238,
+        "spacing": 15,
+        "separation": 10
+    }
+}

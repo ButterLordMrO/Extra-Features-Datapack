@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bp_extrafeatures:end/common/generic_end_shop",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1805422241,
+    "spacing": 20,
+    "separation": 12
+  }
+}

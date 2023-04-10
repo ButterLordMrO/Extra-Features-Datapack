@@ -1,0 +1,16 @@
+{
+    "values": [
+        "bp_extrafeatures:aaa_basics/score_tick",
+        "bp_extrafeatures:aaa_basics/crafting_tick",
+
+        "bp_extrafeatures:bows/warped_bow/arrow_land",
+
+        "bp_extrafeatures:mobs/common/graveyard/cursed_necromancer/spawn",
+        "bp_extrafeatures:mobs/common/underground/infected_skeleton/spawn",
+        
+        "bp_extrafeatures:mobs/mesa/mesa_warrior/attack",
+        "bp_extrafeatures:mobs/mesa/mesa_warrior/spawn",
+
+        "bp_extrafeatures:guns/handguns/basic_handgun/detect"
+    ]
+}

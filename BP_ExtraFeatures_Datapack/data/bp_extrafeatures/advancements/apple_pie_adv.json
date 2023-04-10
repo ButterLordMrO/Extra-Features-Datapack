@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Basic Bullet Unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "bp_extrafeatures:food/pastries/apple_pie"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bp_extrafeatures:food/pastries/apple_pie_give"
+    }
+}

@@ -1,0 +1,3 @@
+execute as @e[type=zombie,predicate=bp_extrafeatures:biome_badlands,predicate=bp_extrafeatures:chance_25] run tag @s add mesa_warrior
+execute as @e[type=zombie,predicate=!bp_extrafeatures:biome_badlands] run tag @s add mesa_warrior
+execute as @e[type=zombie,tag=!mesa_warrior,tag=!custom_mob,predicate=bp_extrafeatures:biome_badlands] at @s run function bp_extrafeatures:mobs/mesa/mesa_warrior/replace

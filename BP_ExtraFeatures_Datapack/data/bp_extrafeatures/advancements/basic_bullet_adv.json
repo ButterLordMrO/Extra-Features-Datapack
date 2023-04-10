@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Basic Bullet Unlock": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "bp_extrafeatures:guns/ammo/basic_bullet"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bp_extrafeatures:guns/ammo/basic_bullet_give"
+    }
+}
