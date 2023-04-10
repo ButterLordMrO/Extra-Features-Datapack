@@ -1,0 +1,79 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "bp_extrafeatures:item/guns/ammo/bp_basic_bullet",
+		"particle": "bp_extrafeatures:item/guns/ammo/bp_basic_bullet"
+	},
+	"elements": [
+		{
+			"from": [7, 5, 7],
+			"to": [9, 7, 11],
+			"faces": {
+				"north": {"uv": [2, 4, 4, 6], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 2], "texture": "#0"},
+				"south": {"uv": [4, 4, 6, 6], "texture": "#0"},
+				"west": {"uv": [0, 2, 4, 4], "texture": "#0"},
+				"up": {"uv": [2, 8, 0, 4], "texture": "#0"},
+				"down": {"uv": [6, 0, 4, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.1, 5.1, 6],
+			"to": [8.9, 6.9, 7],
+			"faces": {
+				"north": {"uv": [6, 0, 8, 2], "texture": "#0"},
+				"east": {"uv": [6, 2, 7, 4], "texture": "#0"},
+				"south": {"uv": [2, 6, 4, 8], "texture": "#0"},
+				"west": {"uv": [4, 6, 5, 8], "texture": "#0"},
+				"up": {"uv": [8, 5, 6, 4], "texture": "#0"},
+				"down": {"uv": [7, 6, 5, 7], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [103.23, -10.41, 7.37],
+			"translation": [0.75, 1, 2.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [103.23, -10.41, 7.37],
+			"translation": [0.75, 1, 2.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [94, 0, 0],
+			"translation": [3, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [94, 0, 0],
+			"translation": [3, 0, 0]
+		},
+		"ground": {
+			"rotation": [52.32, 15.53, 31.04],
+			"translation": [-0.25, 0.5, 0.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [107.7, -35.61, -107.59],
+			"translation": [3.5, -0.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"head": {
+			"rotation": [-32, 0, 0],
+			"translation": [0, 7.75, -16.75]
+		},
+		"fixed": {
+			"rotation": [90, 0, -90],
+			"translation": [2.25, 0, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

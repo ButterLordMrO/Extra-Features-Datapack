@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/warped_fungus_on_a_stick"
+    },
+    "overrides":
+    [
+          {"predicate": { "custom_model_data": 6272001}, "parent":"minecraft:item/warped_fungus_on_a_stick","model": "bp_extrafeatures:guns/handguns/bp_basic_handgun"},
+
+          {"predicate": { "custom_model_data": 6274001}, "parent":"minecraft:item/warped_fungus_on_a_stick","model": "bp_extrafeatures:mobs/mesa/mesa_warrior_spears"}
+    ]
+  }

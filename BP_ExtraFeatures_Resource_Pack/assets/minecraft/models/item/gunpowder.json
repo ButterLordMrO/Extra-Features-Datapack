@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/gunpowder"
+    },
+    "overrides":
+    [
+        {"predicate": { "custom_model_data": 6277001}, "parent":"minecraft:item/gunpowder","model": "bp_extrafeatures:misc/end/cosmic_powder"}
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bp_extrafeatures:item/food/pastries/bp_apple_pie"
+  }
+}

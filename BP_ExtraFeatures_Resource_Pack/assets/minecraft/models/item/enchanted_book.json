@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/enchanted_book"
+    },
+    "overrides":
+    [
+            {"predicate": { "custom_model_data": 6275001}, "parent":"minecraft:item/enchanted_book","model": "bp_extrafeatures:artifacts/offhand/attack_speed_soul_fragment"}
+    ]
+}

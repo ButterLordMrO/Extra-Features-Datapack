@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/ink_sac"
+    },
+    "overrides":
+    [
+          {"predicate": { "custom_model_data": 6271001}, "parent":"minecraft:item/ink_sac","model": "bp_extrafeatures:guns/ammo/bp_basic_bullet"}
+    ]
+  }
