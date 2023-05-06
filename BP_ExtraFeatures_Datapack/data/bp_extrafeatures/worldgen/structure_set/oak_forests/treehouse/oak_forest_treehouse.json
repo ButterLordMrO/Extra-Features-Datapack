@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "bp_extrafeatures:oak_forests/treehouse/oak_forest_treehouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 478327689,
+    "exclusion_zone": {
+      "other_set": "minecraft:pillager_outposts",
+      "chunk_count": 4
+    },
+    "spacing": 25,
+    "separation": 18
+  }
+}

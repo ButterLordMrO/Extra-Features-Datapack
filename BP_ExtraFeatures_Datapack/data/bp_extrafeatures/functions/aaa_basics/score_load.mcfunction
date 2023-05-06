@@ -4,6 +4,8 @@ scoreboard objectives add warped_fungus_detect used:warped_fungus_on_a_stick
 scoreboard objectives add gun_cooldown dummy
 scoreboard objectives add y_level dummy
 
+scoreboard objectives add nearby_entities dummy
+
 ##Attack Scores
 scoreboard objectives add melee_cooldown dummy
 scoreboard objectives add arrow_cooldown dummy

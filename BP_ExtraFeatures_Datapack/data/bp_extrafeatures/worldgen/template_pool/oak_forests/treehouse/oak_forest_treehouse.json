@@ -1,0 +1,15 @@
+{
+    "name": "bp_extrafeatures:oak_forests/treehouse/oak_forest_treehouse",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bp_extrafeatures:oak_forests/treehouse/oak_forest_treehouse",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
